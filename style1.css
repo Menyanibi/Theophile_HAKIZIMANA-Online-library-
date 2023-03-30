@@ -1,0 +1,269 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+body
+{
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:repeat-x;
+    font-family: sans-serif;
+}
+.header
+{
+    text-align: center;
+    font-size: 45px;
+    font-family: elephant;
+    color: white;
+    background: green;
+    height: 50px;
+    border-bottom-style: dashed;
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center;
+    
+}
+.left
+{
+    border: 0px solid black;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+    left: 20px;
+    width: 150px;
+    height: 200px;
+    bottom: 100px;
+    color: magenta;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-style: dashed;
+}
+.menu-bar ul li
+{
+    width: 170px;
+    height: 30;
+    margin: 13px;
+    padding: 13px;
+    
+}
+.menu-bar ul li a , 
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li  :hover
+{
+    background: #2bab0d;
+    border-radius: 10px;
+     
+}
+.menu-bar ul li  :hover
+{
+    background: blueviolet;
+    font-size: 21px;
+}
+h3
+{
+    position: absolute;
+    right: 2px;
+    margin: -10px;
+    padding: 20px;
+    font-size: 15px;
+    text-align: left;
+    font-family: inherit;
+    color: chocolate;
+}
+img
+{
+    position: absolute;
+    right: 2px;
+    width: 220px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    border-radius: 8%;
+    image-orientation: up;
+}
+.nav-bar
+{
+    height: 220px;
+    width: 150px;
+   text-align: left; 
+   position: absolute;
+   left: 0px;
+   padding: 30px;
+   top: 120px;
+}
+.nav-bar ul
+{
+    display: block;
+    list-style: none;
+    color: white;
+    font-size: 30px;
+}
+.nav-bar ul li
+{
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    font-size: 25px;
+}
+.nav-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+    size: 20px;
+
+}
+.nav-bar ul li  :hover
+{
+    background: blueviolet;
+}
+.video
+{
+    position: absolute;
+    right: 2px;
+    top: 155px;
+    controls: autoplay;
+}
+#cop
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+}
+.footer
+{
+    position: absolute;
+    border-radius: 20px;
+    bottom: 0px;
+    background: gray;
+    height: 80px;
+    width: 800px;
+    left: 300px;
+
+}
+.isaha
+{
+    position: absolute;
+    left: 2px;
+    bottom: -190px;
+}
+.photo1
+{
+    position: absolute;
+    bottom: 130px;
+    left: -200px;
+    width: 50px;
+    }
+
+#brain 
+{
+     background: green;
+    color: blueviolet;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+#brain :hover
+{
+    color: red;
+}
+.photo2
+{
+    position: absolute;
+    bottom: 130px;
+    left: -400px;
+}
+.photo3
+{
+    position: absolute;
+    bottom: 130px;
+    left: -650px;
+}
+.footer a
+{
+    margin: -20px;
+    padding: 40px;
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    width: 50px;
+}
+.name1
+{
+    margin: -90px;
+    padding: 50px;
+    position: absolute;
+    border-radius: 20px;
+    bottom: 0px;
+    height: 80px;
+    width: 800px;
+    left: 420px;
+}
+.name1 li
+{
+    color: darkblue;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+    padding: 5px;
+   text-decoration: none;
+   display: inline-flex; 
+}
+.name1 li:hover
+{
+    color: teal;
+    background: yellowgreen;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  width: 250px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+.search-container
+{
+    position: absolute;
+    top: 122px;
+    right: 5px;
+}
+
